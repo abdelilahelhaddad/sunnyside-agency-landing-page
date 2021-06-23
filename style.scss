@@ -32,3 +32,60 @@ body {
   // font-family: 'Fraunces', serif;
   font-size: 18px;
 }
+
+ul {
+  display: flex;
+
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+#hero {
+  background: url("./images/desktop/image-header.jpg") no-repeat center center/cover;
+  height: 100vh;
+
+  .logo-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1440px;
+
+    .logo {
+      align-self: center;
+    }
+
+    .navbar {
+
+      ul {
+        li {
+          display: flex;
+          align-items: center;
+          margin-left: 2.5rem;
+
+          a {
+            color: $White;
+          }
+
+          a.contact-us {
+            color: $Very-dark-desaturated-blue;
+            text-transform: uppercase;
+            font-family: 'Fraunces', serif;
+            background: $White;
+            padding: 1.2rem 2rem;
+            border-radius: 100vh;
+          }
+        }
+      }
+    }
+  }
+
+  // .hero-content {}
+}
