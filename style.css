@@ -55,6 +55,7 @@ ul li a {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  cursor: pointer;
 }
 
 #hero .logo-navbar .navbar ul li {
@@ -78,5 +79,20 @@ ul li a {
   background: white;
   padding: 1.2rem 2rem;
   border-radius: 100vh;
+}
+
+#hero .hero-content {
+  text-align: center;
+}
+
+#hero .hero-content h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
