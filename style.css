@@ -104,7 +104,6 @@ section.features .features-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgba(250, 212, 0, 0.02);
 }
 
 section.features .features-section .features-content {
@@ -161,5 +160,54 @@ section.features .features-section .features-content.standOut-content .bottom-bo
   width: 7.5rem;
   border-radius: 100vh;
   margin-top: -0.5rem;
+}
+
+section.features .transform {
+  background-color: rgba(250, 212, 0, 0.03);
+}
+
+section.features .standOut {
+  background-color: rgba(254, 120, 103, 0.03);
+}
+
+section.features .graphicDesign-photography .features-content {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+section.features .graphicDesign-photography .features-content h2,
+section.features .graphicDesign-photography .features-content p {
+  margin: 0 auto;
+}
+
+section.features .graphicDesign-photography .features-content p {
+  width: 28rem;
+  margin-top: 2rem;
+  line-height: 1.7;
+}
+
+section.features .graphicDesign-photography .graphicDesign-content {
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+}
+
+section.features .graphicDesign-photography .graphicDesign-content h2,
+section.features .graphicDesign-photography .graphicDesign-content p {
+  color: #25564b;
+}
+
+section.features .graphicDesign-photography .photography-content {
+  background-image: url("./images/desktop/image-photography.jpg");
+}
+
+section.features .graphicDesign-photography .photography-content h2,
+section.features .graphicDesign-photography .photography-content p {
+  color: #19536b;
 }
 /*# sourceMappingURL=style.css.map */

@@ -110,7 +110,6 @@ a {
 section.features {
   .features-section {
     display: flex;
-    background-color: rgba($color: $Yellow, $alpha: 0.02);
 
     .features-content {
       display: flex;
@@ -162,6 +161,56 @@ section.features {
           border-radius: 100vh;
           margin-top: -0.5rem;
         }
+      }
+    }
+  }
+
+  .transform {
+    background-color: rgba($color: $Yellow, $alpha: 0.03);
+  }
+
+  .standOut {
+    background-color: rgba($color: $Soft-red, $alpha: 0.03);
+  }
+
+  .graphicDesign-photography {
+
+    .features-content {
+      justify-content: flex-end;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      padding-bottom: 3rem;
+
+      h2,
+      p {
+        margin: 0 auto;
+      }
+
+      p {
+        width: 28rem;
+        margin-top: 2rem;
+        line-height: 1.7;
+      }
+    }
+
+    .graphicDesign-content {
+      background-image: url("./images/desktop/image-graphic-design.jpg");
+
+      h2,
+      p {
+        color: $Dark-desaturated-cyan--graphic-design-text;
+      }
+    }
+
+    .photography-content {
+      background-image: url("./images/desktop/image-photography.jpg");
+
+      h2,
+      p {
+        color: $Dark-blue--photography-text;
       }
     }
   }
