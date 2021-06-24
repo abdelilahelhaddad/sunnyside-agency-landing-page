@@ -34,14 +34,14 @@ body {
 
 ul {
   display: flex;
+}
 
-  li {
-    list-style: none;
+li {
+  list-style: none;
+}
 
-    a {
-      text-decoration: none;
-    }
-  }
+a {
+  text-decoration: none;
 }
 
 #hero {
@@ -79,7 +79,7 @@ ul {
             text-transform: uppercase;
             font-family: 'Fraunces', serif;
             background: $White;
-            padding: 1.2rem 2rem;
+            padding: 1rem 2rem;
             border-radius: 100vh;
           }
         }
@@ -99,6 +99,70 @@ ul {
       color: $White;
       margin-top: 2rem;
       margin-bottom: 4rem;
+    }
+
+    .arrow-down {
+      cursor: pointer;
+    }
+  }
+}
+
+section.features {
+  .features-section {
+    display: flex;
+    background-color: rgba($color: $Yellow, $alpha: 0.02);
+
+    .features-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 28rem;
+      margin: 0 auto;
+
+      h2 {
+        font-family: 'Fraunces', serif;
+        font-weight: $font-weight-900;
+        font-size: 40px;
+        color: $Very-dark-desaturated-blue;
+      }
+
+      p {
+        color: $Grayish-blue;
+        margin-top: 2rem;
+      }
+
+      .bottom-border {
+        margin-top: 2rem;
+
+        a {
+          font-family: 'Fraunces', serif;
+          font-weight: $font-weight-900;
+          color: $Very-dark-desaturated-blue;
+          padding-left: 0.5rem;
+        }
+      }
+
+      &.transform-content {
+        .bottom-border::after {
+          content: "";
+          display: block;
+          border: 5px solid rgba($color: $Yellow, $alpha: 0.4);
+          width: 7.5rem;
+          border-radius: 100vh;
+          margin-top: -0.5rem;
+        }
+      }
+
+      &.standOut-content {
+        .bottom-border::after {
+          content: "";
+          display: block;
+          border: 5px solid rgba($color: $Soft-red, $alpha: 0.4);
+          width: 7.5rem;
+          border-radius: 100vh;
+          margin-top: -0.5rem;
+        }
+      }
     }
   }
 }

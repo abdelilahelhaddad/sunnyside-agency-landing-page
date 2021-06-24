@@ -22,11 +22,11 @@ ul {
   display: flex;
 }
 
-ul li {
+li {
   list-style: none;
 }
 
-ul li a {
+a {
   text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ ul li a {
   text-transform: uppercase;
   font-family: 'Fraunces', serif;
   background: white;
-  padding: 1.2rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 100vh;
 }
 
@@ -94,5 +94,72 @@ ul li a {
   color: white;
   margin-top: 2rem;
   margin-bottom: 4rem;
+}
+
+#hero .hero-content .arrow-down {
+  cursor: pointer;
+}
+
+section.features .features-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(250, 212, 0, 0.02);
+}
+
+section.features .features-section .features-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 28rem;
+  margin: 0 auto;
+}
+
+section.features .features-section .features-content h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #23303e;
+}
+
+section.features .features-section .features-content p {
+  color: #a7abae;
+  margin-top: 2rem;
+}
+
+section.features .features-section .features-content .bottom-border {
+  margin-top: 2rem;
+}
+
+section.features .features-section .features-content .bottom-border a {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: #23303e;
+  padding-left: 0.5rem;
+}
+
+section.features .features-section .features-content.transform-content .bottom-border::after {
+  content: "";
+  display: block;
+  border: 5px solid rgba(250, 212, 0, 0.4);
+  width: 7.5rem;
+  border-radius: 100vh;
+  margin-top: -0.5rem;
+}
+
+section.features .features-section .features-content.standOut-content .bottom-border::after {
+  content: "";
+  display: block;
+  border: 5px solid rgba(254, 120, 103, 0.4);
+  width: 7.5rem;
+  border-radius: 100vh;
+  margin-top: -0.5rem;
 }
 /*# sourceMappingURL=style.css.map */
