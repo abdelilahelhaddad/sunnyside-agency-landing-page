@@ -111,11 +111,17 @@ section.features {
   .features-section {
     display: flex;
 
+    .image {
+      width: 50%;
+      height: auto;
+    }
+
     .features-content {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 28rem;
+      width: 50%;
+      max-width: 28rem;
       margin: 0 auto;
 
       h2 {
@@ -181,7 +187,7 @@ section.features {
       background-position: center center;
       background-size: cover;
       height: 600px;
-      width: 100%;
+      max-width: 100%;
       padding-bottom: 3rem;
 
       h2,
