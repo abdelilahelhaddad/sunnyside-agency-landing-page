@@ -216,4 +216,64 @@ section.features .graphicDesign-photography .photography-content h2,
 section.features .graphicDesign-photography .photography-content p {
   color: #19536b;
 }
+
+section.client-testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10rem auto;
+}
+
+section.client-testimonials > h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: #a7abae;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+section.client-testimonials .testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+section.client-testimonials .testimonials .testimonial img {
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 5rem;
+}
+
+section.client-testimonials .testimonials .testimonial p {
+  width: 380px;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 4rem;
+  color: #5a636c;
+}
+
+section.client-testimonials .testimonials .testimonial h3 {
+  margin-top: 4rem;
+  font-size: 24px;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: #23303e;
+}
+
+section.client-testimonials .testimonials .testimonial h4 {
+  font-size: 15px;
+  color: #a7abae;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
