@@ -78,9 +78,14 @@ a {
             color: $Very-dark-desaturated-blue;
             text-transform: uppercase;
             font-family: 'Fraunces', serif;
-            background: $White;
+            background-color: $White;
             padding: 1rem 2rem;
             border-radius: 100vh;
+
+            &:hover {
+              background-color: rgba($color: $White, $alpha: 0.3);
+              color: $White;
+            }
           }
         }
       }
@@ -291,12 +296,49 @@ footer.footer {
   background-color: rgba($color: $Dark-moderate-cyan--footer, $alpha: 0.5);
 
   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    padding: 5rem 0;
 
     .footer-logo {
       svg {
         path {
           fill: $Dark-desaturated-cyan--graphic-design-text;
+        }
+      }
+    }
+
+    .footer-nav {
+      margin-top: 2.2rem;
+
+      .list {
+        li {
+          margin: 0 1.5rem;
+
+          a {
+            color: $Dark-desaturated-cyan--graphic-design-text;
+
+            &:hover {
+              color: $White;
+            }
+          }
+        }
+      }
+    }
+
+    .socials {
+      margin-top: 7rem;
+
+      svg {
+        margin: 0 0.8rem;
+
+        &:hover {
+          path {
+            fill: $White;
+          }
         }
       }
     }
