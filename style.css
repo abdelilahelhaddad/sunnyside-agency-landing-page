@@ -164,6 +164,10 @@ section.features .features-section .features-content.transform-content .bottom-b
   margin-top: -0.5rem;
 }
 
+section.features .features-section .features-content.transform-content .bottom-border:hover::after {
+  border: 5px solid #fad400;
+}
+
 section.features .features-section .features-content.standOut-content .bottom-border::after {
   content: "";
   display: block;
@@ -171,6 +175,10 @@ section.features .features-section .features-content.standOut-content .bottom-bo
   width: 7.5rem;
   border-radius: 100vh;
   margin-top: -0.5rem;
+}
+
+section.features .features-section .features-content.standOut-content .bottom-border:hover::after {
+  border: 5px solid #fe7867;
 }
 
 section.features .transform {

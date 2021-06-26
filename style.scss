@@ -161,6 +161,10 @@ section.features {
           border-radius: 100vh;
           margin-top: -0.5rem;
         }
+
+        .bottom-border:hover::after {
+          border: 5px solid $Yellow;
+        }
       }
 
       &.standOut-content {
@@ -171,6 +175,10 @@ section.features {
           width: 7.5rem;
           border-radius: 100vh;
           margin-top: -0.5rem;
+        }
+
+        .bottom-border:hover::after {
+          border: 5px solid $Soft-red;
         }
       }
     }
