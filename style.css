@@ -14,6 +14,7 @@
 body {
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
+  background-color: rgba(254, 120, 103, 0.04);
 }
 
 ul {
@@ -179,14 +180,6 @@ section.features .features-section .features-content.standOut-content .bottom-bo
 
 section.features .features-section .features-content.standOut-content .bottom-border:hover::after {
   border: 5px solid #fe7867;
-}
-
-section.features .transform {
-  background-color: rgba(250, 212, 0, 0.03);
-}
-
-section.features .standOut {
-  background-color: rgba(254, 120, 103, 0.03);
 }
 
 section.features .graphicDesign-photography .features-content {
@@ -482,12 +475,6 @@ footer.footer .container .socials svg:hover path {
   section.features .features-section .features-content.standOut-content .bottom-border:hover::after {
     border: 5px solid #fe7867;
   }
-  section.features .transform {
-    background-color: rgba(250, 212, 0, 0.03);
-  }
-  section.features .standOut {
-    background-color: rgba(254, 120, 103, 0.03);
-  }
   section.features .graphicDesign-photography .features-content {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -530,14 +517,15 @@ footer.footer .container .socials svg:hover path {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 10rem auto;
+    margin: 5rem auto;
+    padding: 0 2rem;
   }
   section.client-testimonials > h3 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     color: #a7abae;
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 5px;
   }
@@ -550,18 +538,18 @@ footer.footer .container .socials svg:hover path {
   section.client-testimonials .testimonials .testimonial img {
     width: 80px;
     border-radius: 50%;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   section.client-testimonials .testimonials .testimonial p {
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.5;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: #5a636c;
   }
   section.client-testimonials .testimonials .testimonial h3 {
-    margin-top: 4rem;
-    font-size: 24px;
+    margin-top: 2rem;
+    font-size: 18px;
     font-family: 'Fraunces', serif;
     font-weight: 900;
     color: #23303e;

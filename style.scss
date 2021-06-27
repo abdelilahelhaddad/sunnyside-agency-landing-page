@@ -30,6 +30,7 @@ $White: hsl(0, 0%, 100%);
 body {
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
+  background-color: rgba($color: $Soft-red, $alpha: 0.04);
 }
 
 ul {
@@ -182,14 +183,6 @@ section.features {
         }
       }
     }
-  }
-
-  .transform {
-    background-color: rgba($color: $Yellow, $alpha: 0.03);
-  }
-
-  .standOut {
-    background-color: rgba($color: $Soft-red, $alpha: 0.03);
   }
 
   .graphicDesign-photography {
