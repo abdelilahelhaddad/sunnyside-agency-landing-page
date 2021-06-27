@@ -1,4 +1,4 @@
-@media screen and(max-width:375px) {
+@media screen and(max-width:768px) {
 
   #hero {
     background: url("./images/mobile/image-header.jpg") no-repeat center center/cover;
@@ -13,6 +13,10 @@
         height: 18px;
 
         ul {
+          display: none;
+        }
+
+        ul.active {
           width: 86%;
           height: 60vh;
           display: flex;
@@ -98,10 +102,18 @@
 
       .graphicDesign-content {
         background-image: url("./images/mobile/image-graphic-design.jpg");
+
+        p {
+          width: 100%;
+        }
       }
 
       .photography-content {
         background-image: url("./images/mobile/image-photography.jpg");
+
+        p {
+          width: 100%;
+        }
       }
     }
   }
