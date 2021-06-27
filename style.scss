@@ -312,6 +312,7 @@ footer.footer {
     padding: 5rem 0;
 
     .footer-logo {
+
       svg {
         path {
           fill: $Dark-desaturated-cyan--graphic-design-text;
@@ -352,3 +353,5 @@ footer.footer {
     }
   }
 }
+
+@import 'mobile';
